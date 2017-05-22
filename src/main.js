@@ -8,7 +8,7 @@ import {routerReducer} from "react-router-redux"
 import createHistory from "history/createBrowserHistory"
 import R from "ramda"
 import App, {reducers} from "./app"
-import getStoreMiddleware from "./app/store-middleware"
+import getStoreMiddleware from "./store-middleware"
 
 const history = createHistory()
 const store = createStore(
