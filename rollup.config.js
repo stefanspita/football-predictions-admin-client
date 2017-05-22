@@ -37,7 +37,14 @@ export default {
         "node_modules/lodash-es/**",
         "node_modules/symbol-observable/**",
       ],
-      namedExports: {"node_modules/react/react.js": ["PropTypes", "createElement"]},
+      namedExports: {
+        "node_modules/react/react.js": [
+          "Children", "Component", "createElement",
+        ],
+        "node_modules/redux-logger/dist/redux-logger.js": [
+          "createLogger",
+        ],
+      },
     }),
     resolve({
       jsnext: true,
