@@ -18,7 +18,7 @@ import cssnano from "cssnano"
 
 export default {
   entry: "src/main.js",
-  dest: "build/js/main.min.js",
+  dest: "build/main.min.js",
   format: "iife",
   sourceMap: "inline",
   plugins: [
@@ -67,7 +67,7 @@ export default {
       watch: "build",
     })),
     (process.env.NODE_ENV !== "production" && serve({
-      contentBase: "build",
+      contentBase: "",
       host: "localhost",
       port: 10001,
     })),

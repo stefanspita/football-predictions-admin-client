@@ -2,7 +2,7 @@
   "name": "app-skeleton",
   "version": "0.0.0",
   "description": "This repo can be used as a base for creating a website",
-  "main": "build/js/main.min.js",
+  "main": "build/main.min.js",
   "scripts": {
     "lint": "eslint src/",
     "build": "rollup -c",
